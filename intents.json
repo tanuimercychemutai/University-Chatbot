@@ -1,0 +1,329 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "How are you",
+        "Is anyone there?",
+        "Hey"
+      ],
+      "responses": [
+        "Hey there, what can I do for you today?",
+        "Hi there, what can I do for you?",
+        "Hello, how may I help you?"
+      ]
+    },
+    {
+      "tag": "Bye",
+      "patterns": [
+        "Ok thank you",
+        "thank you",
+        "Goodbye",
+        "I appreciate that",
+        "Bye"
+      ],
+      "responses": [
+        "Hope you got what you needed",
+        "I'm glad I was of assistance",
+        "Glad I could be of help"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "How can I pay for school fees?",
+        "What is the paybill for fee payment",
+        "What is the paybill for hostel accommodation",
+        "How can I pay for the hostels",
+        "What are the bank details for fees payments",
+        "what are the bank details for hostel accommodation payment",
+        "How to make payments",
+        "How to make fee payments",
+        "how to make hostel payments",
+        "how to make accommodation payments"
+      ],
+      "responses": [
+        "(KCB Bank:A/C title; Kabarak University, A/C No; 1109663161, Branch; Nakuru) (Co-operative Bank: A/C Title; Kabarak University, A/C No; 01129882644500, Branch; Nakuru) (Mpesa Paybill no: 983100, A/C No; 983100)"
+      ]
+    },
+    {
+      "tag": "graduation-time",
+      "patterns": [
+        "when is graduation held",
+        "what is the date of the next graduation",
+        "when is graduation done",
+        "when can I expect to graduate"
+      ],
+      "responses": [
+        "Kabarak's graduation happens once a year between 14th-18th December, Always on a Friday so it may vary from year to year"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "where can I go when I feel sick",
+        "what do I do when I get ill",
+        "I'm unwell, what can I do",
+        "What can I do when I'm feeling unwell",
+        "I'm sick, what should I do"
+      ],
+      "responses": [
+        "When unwell please visit the Kabarak dispensary for free healthcare services. Please carry your student ID for this process",
+        "Visit the dispensary for free healthcare. Please ensure you carry your ID"
+      ]
+    },
+    {
+      "tag": "directions-SMHS",
+      "patterns": [
+        "Where is the school of health science",
+        "how can I get to SMHS",
+        "what is in the school of health science"
+      ],
+      "responses": [
+        "The school of health sciences is located along the turmaced road and has a big sign stating the school. It is also next to the dispensary and opposite the library"
+      ]
+    },
+    {
+      "tag": "emergency-contacts",
+      "patterns": [
+        "Who can I call in case of an emergency?",
+        "what are the contacts of people that can help me in case of an emergency",
+        "It's urgent, who can I call?",
+        "Who can I call in case of trouble?",
+        "Who can I contact urgently?",
+        "Its an emergency who can I call"
+      ],
+      "responses": [
+        "You can call: The CSO;0722267052, The main gate;0725981727, The Chaplain;0722610119 or The dean of students;0705682920",
+        "Please contact: The CSO;0722267052, The main gate;0725981727, The Chaplain;0722610119 or The dean of students;0705682920"
+      ]
+    },
+    {
+     "tag": "missing-marks",
+      "patterns": [
+        "Why do I have an I in the results",
+        "What should I do in the case of a missing mark?",
+        "I have a missing mark, what should I do?",
+        "What's the procedure of dealing with a missing mark?",
+        "What's the process of handling a missing mark?",
+        "How do you handle an I in a transcript?",
+        "What should I do in a case of incomplete in a transcript",
+        "How do you deal with an incomplete"
+      ],
+      "responses": [
+        "In a case of missing marks, fill out a form provided by your school and take that form to the unit's lecturer. The lecturer will give you a way to fill in the blank.",
+        "Fill out a missing mark form found in your school. Take that form to the unit's lecturer who will determine how to fill the incomplete"
+      ]
+    },
+    {
+      "tag": "Finance",
+      "patterns": [
+        "I've been double charged, what should I do?",
+        "My fees are not reflecting",
+        "My semester has been deactivated, what should I do?",
+        "I can't see my fees"
+      ],
+      "responses":[
+        "For any help with finance, please contact studentfinance@kabarak.ac.ke or call 0705184375"
+      ]
+    },
+    {
+      "tag": "application",
+      "patterns": [
+        "What is the application process?",
+        "How do I apply to Kabarak?",
+        "How to apply?",
+        "Can I apply to Kabarak?"
+      ],
+      "responses": [
+        "You can apply for Kabarak by filling in an application form which is found both physically in school and on the kabarak website",
+        "You can do so by filling an application form which can be found on the kabarak website: https://kabarak.ac.ke/mode-of-application/ "
+      ]
+    },
+    {
+      "tag": "catalog",
+      "patterns": [
+        "What are the courses offered in Kabarak?",
+        "What course can I do in Kabarak?",
+        "What are the types of courses offered in Kabarak?",
+        "What can I do in Kabarak"
+      ],
+      "responses": [
+        "Kabarak offers courses under seven schools, each unique to suit everyone's needs. To see the complete list visit the kabarak website: https://kabarak.ac.ke/courses/",
+        "Visit this https://kabarak.ac.ke/courses/ for more information"
+      ]
+    },
+    {
+      "tag": "clearance",
+      "patterns": [
+        "How do I clear from school?",
+        "What is the clearance process?",
+        "What should you do to clear?",
+        "How can I clear?",
+        "How to clear",
+        "I want to clear, what's the process?",
+        "Clearance procedure",
+        "What to do when clearing"
+      ],
+      "responses": [
+        "To clear, one should pick a clearance form from reception or admissions office. The form is then to be signed by every department and returned to the admissions office after every departments signature. This document is important so make a copy to be used for later purposes ",
+        "Pick a clearance form from the reception/admissions office. Get signatures from every school and department including town campus. Return the form to the admissions. This document is important so make a copy to be used for later purposes "
+      ]
+    },
+    {
+      "tag": "certificates",
+      "patterns": [
+        "How can I get certificates after graduation?",
+        "How do I request for my certificates?",
+        "What should I do to get my transcripts and certificates",
+        "Can I get my certificates?"
+      ],
+      "responses": [
+        "To get your certificates and transcripts, you should have the clearance form, your student id and graduation attire form. You are also required to fill in a request form. This is then submitted to the admissions office for processing ",
+        "You should submit your clearance form, student id and graduation attire form together with the request form to the admissions and records office. The will process your request and provide your certificate and your transcripts"
+      ]
+    },
+    {
+      "tag": "course-transfer",
+      "patterns": [
+        "I want to change courses, what should I do?",
+        "How can I change courses?",
+        "Can I change courses?",
+        "Can I exchange courses?",
+        "How can I transfer from my course",
+        "How can I move to another course"
+      ],
+      "responses": [
+        "To change courses, pick a course transfer form from the kabarak website(https://kabarak.ac.ke/mode-of-application/#). You should then get recommendations from both the current school and school to be transferred to. Clusters are taken into considerations so ensure you meet the cluster points.",
+        "You can fill out a transfer form from the school website and get signatures from the respective schools. You should then get approval from the registrar and admissions office before transferring and getting a new admission number"
+      ]
+    },
+    {
+      "tag": "campus-withdrawal",
+      "patterns": [
+        "What is the procedure after dropping out?",
+        "What should I do after I withdraw from school?",
+        "How do I drop out?",
+        "How do I withdraw from the campus",
+        "How do I officially drop out",
+        "What can I do after dropping out"
+      ],
+      "responses": [
+        "Withdrawing from school is a big decision so take your time before doing it. In case you've made up your mind, you can fill out a withdrawal form found in the admissions office.",
+        "To withdraw from school, you can fill out a form found in the admissions office. The form can take 5-10 minutes to fill out"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "What is the admission process?",
+        "What should I expect during admissions?",
+        "What does admissions entail?",
+        "What goes on during admission?"
+      ],
+      "responses": [
+        "One should apply to the university using a form which can either be found physically or on the website. The student should then report on a preset day. Here, they receive an admission number which will be used for all university activities",
+        "First, an application should be made by filling a form. The student should then report to school on a preset date and receive an admission number. This number is then used for all university operations."
+      ]
+    },
+    {
+      "tag": "intakes",
+      "patterns": [
+        "When can I enroll into Kabarak?",
+        "What time can I join school?",
+        "When do Kabarak accept students",
+        "When can I join Kabarak"
+      ],
+      "responses":[
+        "Kabarak has January, May and September intakes"
+      ]
+    },
+    {
+      "tag": "accommodation-time",
+      "patterns": [
+        "When to start booking hostels",
+        "When can I book a room?",
+        "When does booking of hostels happen? ",
+        "What time does accommodation booking begin?"
+      ],
+      "responses": [
+        "Accommodation booking typically begin towards the end of the semester on a first come first served basis"
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "How do I book a room",
+        "How can I book the hostel",
+        "What's the procedure of booking for accommodations",
+        "How can I book the accommodations",
+        "How to book a room"
+      ],
+      "responses": [
+        "You can reserve a room online on the moodle and make the payments using the bank/mpesa details seen in payment"
+      ]
+    },
+    {
+      "tag": "retakes",
+      "patterns": [
+        "How can I register for retakes",
+        "What should I do in the case of retakes?",
+        "How do I complete a retake",
+        "How do I apply for a retake",
+        "How do I register for a retake in the portal",
+        "How do I pay for retakes",
+        "How much does a retake cost"
+      ],
+      "responses": [
+        "Retakes can be applied through the portal at the beginning of the semester. It is registered after the semesters units and a payment of 10-15k payed depending on the school "
+      ]
+    },
+    {
+      "tag": "registration-issues",
+      "patterns": [
+        "I am unable to register for my units, what should i do?",
+        "I can't register for some units",
+        "Some units are missing during registration",
+        "I can't see any units in the moodle",
+        "One of my units is missing",
+        "No units are visible on my moodle",
+        "I have last semesters units"
+      ],
+      "responses": [
+        "For any registration issues, please contact icthelpdesk@kabarak.ac.ke",
+        "For immediate assistance, contact icthelpdesk@kabarak.ac.ke"
+      ]
+    },
+    {
+      "tag": "passwords",
+      "patterns": [
+        "I forgot the password to the eserver",
+        "I forgot the password to the moodle",
+        "I forgot the password to the email"
+      ],
+      "responses": [
+        "In this situations, all you have to do is click on the forget password link below the password provision then follow the procedure set",
+        "Click the forget password and follow the set procedure"
+      ]
+    },
+    {
+      "tag": "fee-structure",
+      "patterns": [
+        "How much fees does a government sponsored student pay?",
+        "How much fees does a self sponsored student pay? ",
+        "How much do you pay for a computer science student pay?",
+        "How much does a pharmacy student pay?",
+        "How much does a self sponsored education student pay?",
+        "What is the fee structure in Kabarak?",
+        "how much is tution fees"
+      ],
+      "responses": [
+        "The fees structure varies from school to school and whether or not you are self or government sponsored. The complete list of fees can be found here (https://kabarak.ac.ke/application-forms-fee-structure/)",
+        "You can assess the full fee structure here,(https://kabarak.ac.ke/application-forms-fee-structure/)"
+      ]
+    }
+
+  ]
+}
